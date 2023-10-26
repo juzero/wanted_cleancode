@@ -17,27 +17,17 @@
 
 ### Q4. 다음 중 선호하는 방식과 그 이유는?
 
-1.
-
-Tab vs Space
+1. Tab vs Space
 Tab: 같은 결과를 위해 4배의 클릭을 하는 것을 매우 비효율적이다
 
-2.
-
-세미콜론 Ovs 세미콜론 X
+2. 세미콜론 Ovs 세미콜론 X
 세미콜론O: 여기가 끝인 줄 알려주는게 좋다.
 
-3.
-
-count++; vs count += 1; vs count = count + 1;
+3. count++; vs count += 1; vs count = count + 1;
 count +=1;: +2 등 다른 경우도 있을테니, 동일한 표기 규칙을 위해.
 
-4.
-
-if (isLogin) {} vs if (isLogin === true) {}
+4. if (isLogin) {} vs if (isLogin === true) {}
 if (isLogin): 변수명을 잘 정했다면 굳이 true를 적지 않아도 직관적으로 이해할 수 있다.
 
-5.
-
-isLogin && <HelloWanted /> vs isLogin ? <HelloWanted /> : <></> vs isLogin ? <HelloWanted /> : null vs isLogin ? <HelloWanted /> : undfined
+5.isLogin && <HelloWanted /> vs isLogin ? <HelloWanted /> : <></> vs isLogin ? <HelloWanted /> : null vs isLogin ? <HelloWanted /> : undfined
 isLogin && <HelloWanted />: 같은 결과라면 짧고 명확하게.
